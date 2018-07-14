@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BBF67CE20B2C92100968927 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF67CD20B2C92100968927 /* main.m */; };
+		6BBF67D120B2C92100968927 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF67D020B2C92100968927 /* AppDelegate.m */; };
+		6BBF67D420B2C92100968927 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF67D320B2C92100968927 /* ViewController.m */; };
+		6BBF67D720B2C92100968927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BBF67D520B2C92100968927 /* Main.storyboard */; };
+		6BBF67D920B2C92200968927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BBF67D820B2C92200968927 /* Assets.xcassets */; };
+		6BBF67DC20B2C92200968927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BBF67DA20B2C92200968927 /* LaunchScreen.storyboard */; };
+		6BBF67E520B2CD5E00968927 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF67E420B2CD5D00968927 /* NextViewController.m */; };
+		6BBF67E820B2CF0C00968927 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF67E720B2CF0C00968927 /* TableViewCell.m */; };
+		6BBF67EB20B2D66300968927 /* DataBaseLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF67EA20B2D66300968927 /* DataBaseLib.m */; };
+		6BBF67EE20B2DB5600968927 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBF67ED20B2DB5600968927 /* libsqlite3.0.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BBF67C920B2C92100968927 /* IOSShopKipper_GroceryItemRecord_MachineTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSShopKipper_GroceryItemRecord_MachineTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BBF67CD20B2C92100968927 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BBF67CF20B2C92100968927 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BBF67D020B2C92100968927 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BBF67D220B2C92100968927 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6BBF67D320B2C92100968927 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6BBF67D620B2C92100968927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BBF67D820B2C92200968927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BBF67DB20B2C92200968927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BBF67DD20B2C92200968927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BBF67E320B2CD5D00968927 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		6BBF67E420B2CD5D00968927 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		6BBF67E620B2CF0C00968927 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		6BBF67E720B2CF0C00968927 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		6BBF67E920B2D66300968927 /* DataBaseLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseLib.h; sourceTree = "<group>"; };
+		6BBF67EA20B2D66300968927 /* DataBaseLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseLib.m; sourceTree = "<group>"; };
+		6BBF67ED20B2DB5600968927 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BBF67C620B2C92100968927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BBF67EE20B2DB5600968927 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BBF67C020B2C92100968927 = {
+			isa = PBXGroup;
+			children = (
+				6BBF67CB20B2C92100968927 /* IOSShopKipper_GroceryItemRecord_MachineTest */,
+				6BBF67CA20B2C92100968927 /* Products */,
+				6BBF67EC20B2DB5500968927 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6BBF67CA20B2C92100968927 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BBF67C920B2C92100968927 /* IOSShopKipper_GroceryItemRecord_MachineTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BBF67CB20B2C92100968927 /* IOSShopKipper_GroceryItemRecord_MachineTest */ = {
+			isa = PBXGroup;
+			children = (
+				6BBF67CF20B2C92100968927 /* AppDelegate.h */,
+				6BBF67D020B2C92100968927 /* AppDelegate.m */,
+				6BBF67D220B2C92100968927 /* ViewController.h */,
+				6BBF67D320B2C92100968927 /* ViewController.m */,
+				6BBF67E320B2CD5D00968927 /* NextViewController.h */,
+				6BBF67E420B2CD5D00968927 /* NextViewController.m */,
+				6BBF67E620B2CF0C00968927 /* TableViewCell.h */,
+				6BBF67E720B2CF0C00968927 /* TableViewCell.m */,
+				6BBF67E920B2D66300968927 /* DataBaseLib.h */,
+				6BBF67EA20B2D66300968927 /* DataBaseLib.m */,
+				6BBF67D520B2C92100968927 /* Main.storyboard */,
+				6BBF67D820B2C92200968927 /* Assets.xcassets */,
+				6BBF67DA20B2C92200968927 /* LaunchScreen.storyboard */,
+				6BBF67DD20B2C92200968927 /* Info.plist */,
+				6BBF67CC20B2C92100968927 /* Supporting Files */,
+			);
+			path = IOSShopKipper_GroceryItemRecord_MachineTest;
+			sourceTree = "<group>";
+		};
+		6BBF67CC20B2C92100968927 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BBF67CD20B2C92100968927 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BBF67EC20B2DB5500968927 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BBF67ED20B2DB5600968927 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BBF67C820B2C92100968927 /* IOSShopKipper_GroceryItemRecord_MachineTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BBF67E020B2C92200968927 /* Build configuration list for PBXNativeTarget "IOSShopKipper_GroceryItemRecord_MachineTest" */;
+			buildPhases = (
+				6BBF67C520B2C92100968927 /* Sources */,
+				6BBF67C620B2C92100968927 /* Frameworks */,
+				6BBF67C720B2C92100968927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOSShopKipper_GroceryItemRecord_MachineTest;
+			productName = IOSShopKipper_GroceryItemRecord_MachineTest;
+			productReference = 6BBF67C920B2C92100968927 /* IOSShopKipper_GroceryItemRecord_MachineTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BBF67C120B2C92100968927 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Shital;
+				TargetAttributes = {
+					6BBF67C820B2C92100968927 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6BBF67C420B2C92100968927 /* Build configuration list for PBXProject "IOSShopKipper_GroceryItemRecord_MachineTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BBF67C020B2C92100968927;
+			productRefGroup = 6BBF67CA20B2C92100968927 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BBF67C820B2C92100968927 /* IOSShopKipper_GroceryItemRecord_MachineTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BBF67C720B2C92100968927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BBF67DC20B2C92200968927 /* LaunchScreen.storyboard in Resources */,
+				6BBF67D920B2C92200968927 /* Assets.xcassets in Resources */,
+				6BBF67D720B2C92100968927 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BBF67C520B2C92100968927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BBF67EB20B2D66300968927 /* DataBaseLib.m in Sources */,
+				6BBF67D420B2C92100968927 /* ViewController.m in Sources */,
+				6BBF67E520B2CD5E00968927 /* NextViewController.m in Sources */,
+				6BBF67D120B2C92100968927 /* AppDelegate.m in Sources */,
+				6BBF67E820B2CF0C00968927 /* TableViewCell.m in Sources */,
+				6BBF67CE20B2C92100968927 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BBF67D520B2C92100968927 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BBF67D620B2C92100968927 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BBF67DA20B2C92200968927 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BBF67DB20B2C92200968927 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BBF67DE20B2C92200968927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BBF67DF20B2C92200968927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BBF67E120B2C92200968927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IOSShopKipper_GroceryItemRecord_MachineTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shital.IOSShopKipper-GroceryItemRecord-MachineTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BBF67E220B2C92200968927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IOSShopKipper_GroceryItemRecord_MachineTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shital.IOSShopKipper-GroceryItemRecord-MachineTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BBF67C420B2C92100968927 /* Build configuration list for PBXProject "IOSShopKipper_GroceryItemRecord_MachineTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BBF67DE20B2C92200968927 /* Debug */,
+				6BBF67DF20B2C92200968927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BBF67E020B2C92200968927 /* Build configuration list for PBXNativeTarget "IOSShopKipper_GroceryItemRecord_MachineTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BBF67E120B2C92200968927 /* Debug */,
+				6BBF67E220B2C92200968927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BBF67C120B2C92100968927 /* Project object */;
+}
